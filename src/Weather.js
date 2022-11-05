@@ -45,7 +45,7 @@ function Weather({ lat, lon }) {
         {speed} m/s {direction} degrees
       </p>
       <p>{description}</p>
-      <img src={icon} alt="" Y />
+      <img src={icon} alt=""/>
     </>
   );
 }
